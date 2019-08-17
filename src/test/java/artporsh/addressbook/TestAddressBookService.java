@@ -40,6 +40,6 @@ public class TestAddressBookService {
 		
 		assertNotNull("Returned list is not null", service.getAll());
 		
-		verify(dao);
+		verify(dao).getAll();
 	}
 }
